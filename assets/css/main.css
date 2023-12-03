@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.container-form{
+    position: relative;
+}
+.container-form-text{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: deeppink;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-weight: 800;
+}
+.container-form-icon {
+    position: absolute;
+    color: deeppink;
+    top: 80px;
+    left: 130px;
+} 
+.container-form-icon i:nth-child(1){
+    transform: rotate(-25deg); 
+}
